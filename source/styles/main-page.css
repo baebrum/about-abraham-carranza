@@ -1,7 +1,22 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 }
+nav {
+	text-align: center;
+}
+#github-profile-link {
+	text-decoration: none;
+	color: orange;
+	padding: 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0rem 0.05rem 0.025rem;
+    background-color: rgb(255, 231, 187);
+}
+#github-profile-link:hover {
+	text-decoration: underline;
+    background-color: rgb(255, 223, 162);
+}
 #title-name {
 	text-align: center;
-    margin: 2rem 0rem;
+	margin: 2rem 0rem;
 }
