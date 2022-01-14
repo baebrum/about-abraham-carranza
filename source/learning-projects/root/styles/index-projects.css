@@ -1,0 +1,7 @@
+#main-page-button {
+	color: rgb(167, 72, 167);
+    background-color: rgb(255, 226, 255);
+}
+#main-page-button:hover {
+    background-color: rgb(255, 212, 255);
+}

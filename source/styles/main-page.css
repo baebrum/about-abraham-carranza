@@ -1,5 +1,7 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	/* Pascol Eggshell Cream */
+	background-color: #fff4e1;
 }
 nav {
 	text-align: center;
@@ -14,11 +16,12 @@ nav {
 .nav-buttons:hover {
 	text-decoration: underline;
 }
-#title-name {
+.header-title {
 	text-align: center;
 	margin: 2rem 0rem;
 	font-size: 2rem;
 }
+
 #github-profile-button {
 	color: orange;
 	background-color: rgb(255, 241, 214);
