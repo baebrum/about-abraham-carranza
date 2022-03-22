@@ -1,0 +1,18 @@
+.filtering-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	font-weight: bold;
+	margin: auto 2rem;
+	margin-top: 0.5rem;
+}
+
+.filter-container__dropdown {
+	border-radius: 0.5rem;
+	padding: 0.75rem;
+	border: 0;
+}
+.filter-container__dropdown:focus {
+	outline-color: yellowgreen;
+}

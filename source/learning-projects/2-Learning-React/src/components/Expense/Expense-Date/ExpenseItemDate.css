@@ -1,0 +1,30 @@
+@media screen and (min-width: 600px) {
+	.date-container{
+		width: 5rem;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.date-container{
+		width: 3rem;
+	}
+}
+
+
+.date-container {
+	background-color: rgb(57, 57, 57);
+	color: white;
+	padding: 0rem 1rem;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.date-container__day {
+	font-weight: bold;
+	font-size: large;
+}
