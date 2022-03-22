@@ -1,0 +1,39 @@
+.grid-of-projects {
+	display: grid;
+	justify-content: center;
+
+	margin: 2rem 0rem;
+	/* grid-template-columns: repeat(auto-fit, minmax(1em,1fr)); */
+
+	grid-template-columns: repeat(auto-fit, minmax(max(1rem, 10rem), 1fr));
+
+	/* grid-template-columns: repeat(auto-fit, minmax(0,1vw), 1fr); */
+	/* grid-template-columns: repeat(2, minmax(max(1rem, 6rem), 6rem)); */
+
+	gap: 1rem;
+	/*grid-auto-rows: minmax(3rem, auto); */
+}
+.grid-entry {
+	border: 1px rgb(193, 164, 164) solid;
+	/* margin: 1rem 0.5rem 0rem; */
+	/* padding: 2rem;*/
+	display: block;
+
+	width: 20rem;
+	position: relative;
+}
+.grid-entry::after {
+	content: '';
+	display: block;
+	padding-bottom: 100%;
+}
+content {
+	position: absolute;
+}
+#main-page-button {
+	color: rgb(167, 72, 167);
+	background-color: rgb(255, 226, 255);
+}
+#main-page-button:hover {
+	background-color: rgb(255, 212, 255);
+}
